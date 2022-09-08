@@ -24,7 +24,7 @@ const Main = () => {
         onClear();
       }
     } while (
-      promptValue < 16 ||
+      promptValue < 20 ||
       promptValue > 100 ||
       promptValue === null ||
       promptValue % 1 !== 0
